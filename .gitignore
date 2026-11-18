@@ -1,0 +1,18 @@
+# Terraform / OpenTofu state
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Working directories
+.terraform/
+.terragrunt-cache/
+
+# Local variable files and credentials
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
